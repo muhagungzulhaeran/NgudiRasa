@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>lv
+    <color name="white">#FFFFFFFF</color>
+    <color name="darker_grey">#D9D9D9</color>
+    <color name="ngudi_rasa"> #f0881a</color>
+    <color name="grey"> #F7F4F4</color>
+</resources>

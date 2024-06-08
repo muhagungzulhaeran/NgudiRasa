@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:textSize="20dp"
+            android:textColor="@color/ngudi_rasa"
+            android:textStyle="bold"
+            android:text="KATEGORI"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/card_view_kategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <com.example.ngudirasa.widget.Wrap_element
+            android:layout_weight="1"
+            android:id="@+id/wrapElementAll"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+            <com.example.ngudirasa.widget.Card_element
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="5dp"
+                android:gravity="center"
+                android:background="@drawable/bg_card">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/round_border_all_24"
+                    android:importantForAccessibility="no" />
+            </com.example.ngudirasa.widget.Card_element>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="All"
+                android:textAlignment="center"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+        </com.example.ngudirasa.widget.Wrap_element>
+        <RelativeLayout
+            android:layout_width="15dp"
+            android:layout_height="match_parent"/>
+        <com.example.ngudirasa.widget.Wrap_element
+            android:layout_weight="1"
+            android:id="@+id/wrapElementGlutenFree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <com.example.ngudirasa.widget.Card_element
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="5dp"
+                android:gravity="center"
+                android:background="@drawable/bg_card">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/gluten"/>
+            </com.example.ngudirasa.widget.Card_element>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Gluten Free"
+                android:textAlignment="center"
+                android:textSize="12dp"
+                android:textStyle="bold
+"
+                tools:ignore="TextSizeCheck" />
+        </com.example.ngudirasa.widget.Wrap_element>
+        <RelativeLayout
+            android:layout_width="15dp"
+            android:layout_height="match_parent"/>
+        <com.example.ngudirasa.widget.Wrap_element
+            android:layout_weight="1"
+            android:id="@+id/wrapElementPastry"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <com.example.ngudirasa.widget.Card_element
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="5dp"
+                android:gravity="center"
+                android:background="@drawable/bg_card">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/cupcake_pastry_svgrepo_com"/>
+            </com.example.ngudirasa.widget.Card_element>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Pastry"
+                android:textAlignment="center"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+        </com.example.ngudirasa.widget.Wrap_element>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/grey"
+        android:layout_below="@+id/card_view_kategori"
+        android:id="@+id/line1"/>
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
