@@ -8,4 +8,5 @@ Admin memiliki beberapa peran antara lain:
 
 # Arsitektur Sistem
 
-![image](https://github.com/muhagungzulhaeran/NgudiRasa/assets/132732378/6433a010-f880-4d3b-8047-8c00bb0a1825)
+![image](https://github.com/muhagungzulhaeran/NgudiRasa/assets/132732378/dec22f95-4706-464d-80cf-828555325a5d)
+
